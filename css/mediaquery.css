@@ -36,8 +36,13 @@
         margin: 5rem 30px 0 50px;
     }
 
-    .containt__text {
-        text-align: justify;
+    /* cards */
+    .card .hover .front {
+        transform: perspective(600px) rotateY(180deg);
+    }
+    
+    .card .hover .back {
+        transform: perspective(600px) rotateY(360deg);
     }
 
     .footer {

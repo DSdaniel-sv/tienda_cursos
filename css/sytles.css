@@ -109,7 +109,7 @@ body {
 .containt__hello h1 {
     padding: 10rem 0;
     font-size: 8.3vw;
-    animation: rotate 4s linear infinite;
+    animation: rotate 8s linear infinite;
 }
 
 @keyframes rotate {
@@ -141,7 +141,7 @@ body {
 
 .card {
     position: relative;
-    width: 450px;
+    width: 420px;
     height: 350px;
 }
 
@@ -207,6 +207,7 @@ body {
 
 .card .back p {
     text-align: justify;
+    font-size: 14px;
 }
 
 .card .back button {
