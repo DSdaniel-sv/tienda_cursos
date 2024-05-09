@@ -216,11 +216,11 @@ body {
     margin-top: 1rem;
 }
 
-.card:hover .front {
+.card:active .front {
     transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover .back {
+.card:active .back {
     transform: perspective(600px) rotateY(360deg);
 }
 
