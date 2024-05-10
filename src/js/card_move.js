@@ -5,7 +5,7 @@ export default function cardMove () {
     $card.addEventListener('touchstart', (e) => {
         $card.classList.add('hover');
     });
-    
+
     $card.addEventListener('touchend', (e) => {
         $card.classList.remove('hover');
     });

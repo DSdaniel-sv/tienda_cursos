@@ -196,6 +196,9 @@ body {
 
 .card .back .link{
     border-top: solid 1px #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
 }
 
@@ -216,7 +219,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 1rem;
 }
 
 .card:hover .front {
