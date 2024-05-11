@@ -216,6 +216,45 @@
                         </div>
                     </div>
             </section>
+
+            <section class="containt__contact">
+                <h3 class="title-formulario">FORMULARIO DE CONTACTO</h3>
+                <div class="contact--form">
+                    <form class="formulario" action="https://formspree.io/f/xpzvnqov"
+                    method="POST">
+                        <div class="nombreBox">
+                            <label for="nombre">Nombres: </label>
+                            <input id="nombre" type="text" placeholder="Joe Doe" required>
+                        </div>
+                        <div class="apellidoBox">
+                            <label for="apellido">Apellidos: </label>
+                            <input id="apellido" type="text" placeholder="Gae Dant" required>
+                        </div>
+                        <div class="numeroBox">
+                            <label for="numeroTel">Numero de telefono: </label>
+                            <input id="numeroTel" type="number" placeholder="+00 999 999 999">
+                        </div>
+                        <div class="emailBox">
+                            <label for="email">Email: </label>
+                            <input id="email" type="email" name="email" placeholder="correo@gmail.com" required>
+                        </div>
+                        <div class="textareaBox">
+                            <label for="description">Descripcion: </label>
+                            <textarea name="message" id="description" cols="30" rows="10" required></textarea>
+                        </div>
+                        <div class="file-upload">
+                            <label for="files">Cargar Imagen</label>
+                            <input id="files" type="file" name="upload" accept="image/png, image/jpeg, image/jpg">
+                        </div>
+                        <div class="box-btn">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                    <div class="form-img">
+                        <img src="./src/img/contacto/image-1.svg" alt="">
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <h3>TODOS LOS DERECHOS RESERVADOS</h3>

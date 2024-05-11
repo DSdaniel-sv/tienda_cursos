@@ -46,6 +46,77 @@
         transform: perspective(600px) rotateY(360deg);
     }
 
+    /* contacto */
+    /* contacto */
+.containt__contact {
+    width: 100%;
+    height: 1000px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0 10px #000;
+    border-radius: 25px;
+    position: relative;
+}
+
+.containt__contact h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact--form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-formulario {
+}
+
+.formulario {
+    width: 100%;
+    padding: 30px 50px;
+    position: absolute;
+    z-index: 10;
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.formulario label {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #817d7d;
+}
+
+.formulario textarea {
+    resize: none;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ddd;
+    padding: 15px 15px;
+}
+
+.form-img {
+    width: 50%;
+}
+
+.form-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
     .footer {
         margin: 0;
         padding: 20px;
