@@ -98,11 +98,9 @@ body {
 /* containt */
 .containt {
     margin-left: 350px;
-    margin-right: 40px;
 }
 
 .cursos__container {
-    position: relative;
 }
 
 /* modal compra */
@@ -110,38 +108,27 @@ body {
     opacity: 0;
     visibility: hidden;
 
-    max-width: 1600px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modalCompra.view {
-    opacity: 1;
-    visibility: visible;
+    position: fixed;
+    top: 10rem;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0 0 15px #000;
 }
 
 .modal__containt--compra {
-    border: solid green 1px;
+    background-color: white;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    width: 70%;
-    height: 500px;
-    background-color: white;
-    position: absolute;
-    top: 30%;
-    box-shadow: 0 0 0 200vmax rgba(0,0,0,.5);
-    z-index: 20;
+    position: relative;
 }
 
 .modalCompra .btn-close-c{
     position: absolute;
     top: 0;
-    right: 0;/
+    right: 0;
 }
 
 .modalCompra .button__close-c {
@@ -151,10 +138,18 @@ body {
     background-color: #000;
 }
 
-.modalCompra.modalView {
-    opacity: 0;
-    visibility: hidden;
+.enlaces--compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.modalCompra.view {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 .containt__hello {
     text-align: center;
@@ -182,6 +177,14 @@ body {
 }
 
 #cursoC h2 {
+    padding: 3rem 0;
+}
+
+#cursoS {
+    padding-top: 3rem;
+}
+
+#cursoS h2 {
     padding: 3rem 0;
 }
 
