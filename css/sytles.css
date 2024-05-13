@@ -206,6 +206,7 @@ body {
     position: relative;
     width: 420px;
     height: 350px;
+    margin: 20px 0;
 }
 
 .card .face {
