@@ -48,6 +48,10 @@
         transform: perspective(600px) rotateY(360deg);
     }
 
+    .modalCompra {
+        font-size: 15px;
+    }
+
     /* contacto */
     .containt__contact {
         width: 100%;
