@@ -48,7 +48,8 @@
         transform: perspective(600px) rotateY(360deg);
     }
 
-    .modalCompra {
+    /* modal compras */
+    .modalCompra h1, ul, span, li{
         font-size: 15px;
     }
 

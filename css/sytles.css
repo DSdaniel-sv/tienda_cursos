@@ -109,10 +109,10 @@ body {
     visibility: hidden;
 
     position: fixed;
-    top: 5rem;
+    top: 10px;
     width: 100%;
     z-index: 20;
-    box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 50px #000;
 }
 
 .modal__containt--compra {
@@ -145,7 +145,7 @@ body {
     align-items: center;
     text-align: justify;
     gap: 10px;
-    padding: 10px 30px;
+    padding: 5px 5px;
     box-shadow: 0 0 15px #000;
 }
 
