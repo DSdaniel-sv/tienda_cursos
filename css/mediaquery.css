@@ -39,6 +39,14 @@
         margin: 5rem 30px 0 50px;
     }
 
+    .card {
+        position: relative;
+        width: 420px;
+        height: 500px;
+        margin: 20px 0;
+        margin-bottom: 5rem;
+    }
+
     /* cards */
     .card .hover .front {
         transform: perspective(600px) rotateY(180deg);
