@@ -429,3 +429,12 @@ body {
     margin-left: 300px;
     padding: 20px;
 }
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
