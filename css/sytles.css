@@ -101,6 +101,10 @@ body {
     margin-left: 350px;
 }
 
+.containt__hello h1 {
+    color: blue;
+}
+
 .cursos__container {
 }
 
@@ -431,10 +435,16 @@ body {
 }
 
 .footer a {
+    display: inline-block;
     color: white;
-    text-decoration: underline;
+    transition: border-bottom .5s ease;
 }
 
 .footer a:hover {
     color: #ddd;
+    border-bottom: solid 1px white;
+}
+
+.footer h3 {
+    margin-top: 10px;
 }
